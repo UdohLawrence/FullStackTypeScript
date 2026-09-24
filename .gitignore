@@ -1,0 +1,10 @@
+# This covers node_modules in root AND any child folder
+**/node_modules/
+**/.idea/
+
+# Bonus - for your stack
+**/dist/
+**/.next/
+**/.turbo/
+.env
+.env.local
