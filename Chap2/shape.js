@@ -1,9 +1,9 @@
-"use strict";
-class Person {
-    name = "";
-}
+// class Person {
+//   name: string = "";
+// }
 const jill = {
     name: "jill"
 };
-const person = jill;
-console.log(person);
+export {};
+//const person: Person = jill;
+//console.log(person)

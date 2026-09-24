@@ -1,4 +1,3 @@
-"use strict";
 let runner = function (miles) {
     if (miles > 10) {
         return true;
@@ -6,3 +5,4 @@ let runner = function (miles) {
     return false;
 };
 console.log(runner(9));
+export {};

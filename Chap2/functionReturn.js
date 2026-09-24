@@ -1,4 +1,3 @@
-"use strict";
 // function runMore(distance: number): number {
 //   return distance + 10;
 // }
@@ -13,3 +12,4 @@ let ate = eat(100);
 console.log(ate);
 let slept = sleepIn(10);
 console.log(slept);
+export {};
