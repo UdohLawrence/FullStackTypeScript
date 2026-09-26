@@ -11,6 +11,9 @@ class MotorCycle extends Vehicle {
     constructor() {
         super(2);
     }
+    updateWheelCount(newWheelCount) {
+        this.wheelCount = newWheelCount;
+    }
 }
 class Automobile extends Vehicle {
     constructor() {

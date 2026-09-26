@@ -1,5 +1,5 @@
 class Vehicle {
-  constructor(private wheelCount: number) {}
+  constructor(protected wheelCount: number) {}
 
   showNumberOfWheels() {
     console.log(`Number of wheels: ${this.wheelCount}`);
@@ -9,6 +9,10 @@ class Vehicle {
 class MotorCycle extends Vehicle {
   constructor() {
     super(2);
+  }
+
+  updateWheelCount(newWheelCount: number) {
+    this.wheelCount = newWheelCount;
   }
 }
 
